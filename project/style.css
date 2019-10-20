@@ -110,10 +110,11 @@ html, body{
 .article {
     width: 960px;
     background-color:#E9E9E9;
+    /*width:80%*/
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    height: 100%;
+    /*height: 100%; Remove this so that the article sections covers all the recipe items*/
 }
 
 #headline {
@@ -132,7 +133,7 @@ html, body{
 }
 
 @media screen and (max-width: 1130px){
-    /*Medium sized screen. Navbar still same, but no search*/
+    /*Medium sized screen. Navbar still same, but no search*/ 
     #header-nav {
         width: 100%;
     }
@@ -278,6 +279,32 @@ html, body{
     margin-left: auto;
     margin-right: auto;
     
+}
+
+/*Recipe subpages*/
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 20px 0;
+    align-content: center;
+    justify-content: center;
+}
+/*Splitting of screen in different parts*/
+.three-split{
+    max-width: 23%; /*23% + margin allows for three recipe elements per row*/
+    margin: 15px 15px;
+    padding: 15px 15px;
+    background-color: white;
+}
+
+/*Hover*/
+.hover-shadow:hover{
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+/*Image behavior*/
+img {
+    position:relative;
+    width:100%;
 }
 
 /*Footer section*/

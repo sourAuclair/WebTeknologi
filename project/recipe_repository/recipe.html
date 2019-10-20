@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <title>DankMeals</title>
+        <link href="../style.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <!-- NAVBAR SECTION EXCPECT CHANGES!!!-->
+
+        <!-- Large navbar-->
+        <div id="header">
+            <div id="header-nav">
+            <ul class="navbar">
+                <li class="navbar-page">
+                    <div id="logo">
+                        <a class="link" href="index.html">DankMeals</a>
+                    </div>
+                </li>
+                <li class="navbar-page dropdown">
+                    <div class="on-hover">
+                    <a class="link" href="recipe.html">Recipes</a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item">
+                            <a class="dropdown-link" href="everyday.html">Everyday</a>
+
+                        </li>
+                        <li class="dropdown-item">
+                            <a class="dropdown-link" href="party.html">Party</a>
+
+                        </li>
+                        <li class="dropdown-item">
+                            <a class="dropdown-link" href="relax.html">Chill</a>
+
+                        </li>
+                    </ul>
+                    </div>
+                </li>
+
+                <li class="navbar-page">
+                    <a class="link" href="try_your_luck_meal.html">Try-your-luck</a>
+                </li>
+
+                <li class="navbar-page">
+                    <a class="link"href="about.html">About</a>
+                </li>
+
+                <li class="navbar-page">
+                    <a class="link" href="contact.html">Contact</a>
+                    
+                </li>
+                <li class="navbar-page">
+                    
+                    <form action="search.html" method="POST">
+                        
+                        <label for="search-bar">
+                            <input type="search" id="search-bar" placeholder="Search for food" required>
+                        </label>
+                    </form>
+                
+                </li>
+
+            </ul>
+            
+        </div>
+        </div>
+        <!--End large navbar-->
+
+        <!-- Header for small screens -->
+        <div id="small-header">
+            <div id="logo">
+                <a id="logo"class="link" href="index.html">DankMeals</a>
+            </div>
+
+            <div id="small-on-hover">
+                
+                    <img id="to-hov" src="menu.svg" width="25px" height="25px">
+                
+                
+                <ul id="small-dropdown">
+
+                    <li>
+                        <a href="recipe_repository/recipe.html">Recipes</a>
+                    </li>
+
+                    <li id="under">
+                        <a href="recipe_repository/everyday.html">Everyday</a>
+                    </li>
+
+                    <li id="under">
+                        <a href="recipe_repository/party.html">Party</a>
+                    </li>
+
+                    <li id="under">
+                        <a href="recipe_repository/relax.html">Relax</a>
+                    </li>
+
+                    <li>
+                        <a href="try_your_luck_meal.html">Try-your-luck</a>
+                    </li>
+
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            
+
+            </div>
+        </div>
+        <!-- End of header for small screens -->
+
+        <!-- END OF NAVBAR SECTION-->
+
+
+        <!--PAGE BODY => PAGE SPECIFIC CONTENT GOES HERE-->
+        <div class="article">
+            <div id="headline">
+                Recipes
+            </div>
+            <div class="flex-container">
+                <!--First row of recipe items-->
+                <a class="flex-item three-split hover-shadow link" href="everyday.html"><h3>Everyday</h3><p>Simple and healthy dishes that you can make in a busy weekday.</p><img src="../img/kyllingsalat.jpg" alt="The picture could not load." ></a>
+                <a class="flex-item three-split hover-shadow link" href="relax.html"><h3>Relax</h3><p>For relaxing days with plenty of time. Here you will find new and exciting recipes to make in good company, when there is no hurry.</p><img src="../img/steambuns.jpg" alt="The picture could not load."></a>
+                <a class="flex-item three-split hover-shadow link" href="party.html"><h3>Party</h3><p>Tasty recipes that make your party memorable for the good food.</p><img src="../img/tapas.jpg" alt="The picture could not load."></a>
+                
+            
+            </div>
+
+        </div>
+
+        <!--END OF PAGE SPECIFIC CONTENT-->
+
+        <footer>
+            This is a footer
+            <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/"         title="Flaticon">www.flaticon.com</a></div>
+        </footer>
+        
+    </body>
+</html>
