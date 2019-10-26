@@ -8,13 +8,7 @@ var arr_meat= ["steak", "chicken breast", "salmon","trout","calf","pork"];
 var carb; var veg; var meat;
 var timer_is_on = 0;
 
-//timedCount
-function timedCount() {
-    document.getElementById("txt").value = c;
-    c = c + 1;
-    t = setTimeout(timedCount, 500);
-    //v=setTimeout(timedCount,500);
-  }
+
 //carbs
 function carbs_func(){
 document.getElementById("carbs").value=arr_carbs[index_c];
@@ -59,7 +53,7 @@ if (index_m >arr_meat.length-1){
     rounds_m++; }
 }
 
-function startCount() {
+function startMealGen() {
   if (!timer_is_on) {
     timer_is_on = 1;
     //timedCount();

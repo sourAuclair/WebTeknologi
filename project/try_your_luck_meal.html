@@ -120,13 +120,14 @@
 
 
         <!--PAGE BODY => PAGE SPECIFIC CONTENT GOES HERE-->
-        <div class="article">
+        <div class="article" style="padding-bottom:400px;">
             <div id="headline">
                 Try your luck
             </div>
             <p>Eager to try a new combinaton, but have run out of creativity? Try your luck with our meal generator.</p>
-            <button onclick="startCount()">Try your luck</button>
+            <button onclick="startMealGen()" class="button">Try your luck</button>
             <!--Input fields to display the ingredients being looped through-->
+            <br>
             <br>
             Carbs: <br>
             <input type="text" id="carbs">
@@ -137,7 +138,7 @@
             Meat:<br>
             <input type="text" id="meat">
             <br>
-    <!--Output field for giving the user the message that the meal is generated-->
+            <!--Output field for giving the user the message that the meal is generated-->
             <div style="background-color: pink;">
                 <output id="meal_generated">
             </div>
